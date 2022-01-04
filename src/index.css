@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.modalContainer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.pokemon-name:hover {
+  color: yellow;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.pokemon-detail-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
